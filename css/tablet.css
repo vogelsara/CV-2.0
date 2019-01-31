@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+
+    h1{
+        font-size: 4em;
+    }
+
+    h2{
+        font-size: 3em;
+        text-align: left;
+    }
+
+    h3{
+        font-size: 2em;
+        text-align: left;
+    }
+
+    h4{
+        font-size: 1em;
+        text-align: left;
+    }
+
+    p{
+        font-size: 1.5em;
+        display: block;
+        margin-left: 0;
+        margin-right: 2em;
+    }
+
+    #profilePicture{
+        width: 12%;
+    }
+
+    .thinLineWithLessMargin{
+        width: 30%;
+    }
+
+    .thinLine, .thickLine{
+        display: block;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    
+    .row{
+        padding: 2.5em;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .leftColumn, .rightColumn{
+        width: 50%;
+        float: left;
+    }
+
+    footer img{
+        width: 3em;
+        padding: 2em;
+    }
+
+}
